@@ -67,11 +67,7 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-    			<groupId>org.apache.maven.plugins</groupId>
-    			<artifactId>maven-surefire-plugin</artifactId>
-    			<version>3.2.5</version>
-		</dependency>
+		
 
 	</dependencies>
 
@@ -85,20 +81,7 @@
 
 	
 	</build>
-	<build>
-    	<plugins>
-        	<plugin>
-            		<groupId>org.apache.maven.plugins</groupId>
-            		<artifactId>maven-surefire-plugin</artifactId>
-            		<version>3.2.5</version>
-            			<configuration>
-               		 		<!-- Example configurations (optional) -->
-                			<skipTests>false</skipTests> <!-- To ensure tests run -->
-                			<testFailureIgnore>false</testFailureIgnore> <!-- Fail the build on test failure -->
-            			</configuration>
-        	</plugin>
-    	</plugins>
-	</build>
+	
 
 
 		<distributionManagement>
